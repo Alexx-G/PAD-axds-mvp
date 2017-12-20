@@ -12,4 +12,4 @@ RUN apt-get install -y curl build-essential
 
 RUN pip install -r requirements.txt
 
-CMD ./manage.py runserver 0.0.0.0:8000
+CMD ./manage.py migrate && ./manage.py runserver 0.0.0.0:8000
