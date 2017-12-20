@@ -1,4 +1,4 @@
-from django.conf.urls import path, include
+from django.urls import path, include
 from rest_framework.routers import SimpleRouter
 
 from .views import CategoryViewSet, ProductViewSet
