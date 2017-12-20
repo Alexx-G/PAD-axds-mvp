@@ -9,7 +9,7 @@ Note: run all commands from from the project root in terminal.
 #### Using Docker (the easy way)
 - Install Docker - https://www.docker.com/get-docker
 - Run `docker build -t axds .` to build the image
-- Run `docker run -p 8000:8000 -v "$PWD/axds/":/axds/axds/ axds`
+- Run `docker run -it -p 8000:8000 -v "$PWD/axds/":/axds/axds/ axds` (Hit Ctrl+C to stop it)
 - Go to `http://localhost:8000/api/v1/categories/` (or one of the endpoints below) in your browser
 
 #### In a valid Python environment (min Python3.4)
