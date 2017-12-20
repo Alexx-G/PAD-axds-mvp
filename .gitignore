@@ -100,6 +100,7 @@ node_modules/
 # Project specific files
 .env
 docker-compose.override.yml
+*.sqlite3
 
 # Editor specific stuff
 .projectile
